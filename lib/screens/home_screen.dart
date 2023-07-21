@@ -87,28 +87,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        iconSize: 26,
-        selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.grey,
-        showUnselectedLabels: false,
-        showSelectedLabels: false,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: ''),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.add_box_outlined), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.video_settings), label: ''),
-          BottomNavigationBarItem(
-              icon: CircleAvatar(
-                radius: 14,
-                foregroundImage: NetworkImage(
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/525px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
-                ),
-              ),
-              label: ''),
-        ],
-      ),
     );
   }
 }

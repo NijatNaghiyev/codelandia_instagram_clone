@@ -1,4 +1,5 @@
 import 'package:codelandia_instagram_clone/screens/home_screen.dart';
+import 'package:codelandia_instagram_clone/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         textTheme: GoogleFonts.latoTextTheme(),
       ),
-      home: const HomeScreen(),
+      home: const MainScreen(),
     );
   }
 }
